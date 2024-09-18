@@ -33,7 +33,7 @@ version = "0.2.0"
 
 [tool.poetry.dependencies]
 python = ">=3.9,<4.0"
-pandas = "^2.2.0"
+pandas = { version = "^2.2.0", extras=["pyarrow"] }
 chat-miner = "^0.5.1"
 llama-index-core = "^0.11.0"
 
