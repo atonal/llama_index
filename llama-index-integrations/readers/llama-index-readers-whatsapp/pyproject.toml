@@ -34,7 +34,7 @@ version = "0.2.0"
 [tool.poetry.dependencies]
 python = ">=3.9,<4.0"
 pandas = { version = "^2.2.0", extras=["pyarrow"] }
-chat-miner = "^0.5.1"
+chat-miner = { git = "git@github.com:atonal/chat-miner.git", branch = "fix-install-requires" }
 llama-index-core = "^0.11.0"
 
 [tool.poetry.group.dev.dependencies]
