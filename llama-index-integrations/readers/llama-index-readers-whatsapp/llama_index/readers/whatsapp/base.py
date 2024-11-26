@@ -45,12 +45,7 @@ class WhatsappChatLoader(BaseReader):
 
             docs.append(
                 Document(
-                    text=str(row.timestamp)
-                    + " "
-                    + row.author
-                    + ":"
-                    + " "
-                    + row.message,
+                    text=str(row.message),
                     extra_info=extra_info,
                 )
             )
